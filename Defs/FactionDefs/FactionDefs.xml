@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <FactionDef Abstract="True" Name="Playerbase">
+    <homeIconPath>World/WorldObjects/Defaultbase</homeIconPath>
+    <colorSpectrum>
+      <li>(0, 0.126, 0.322)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+<FactionDef Name="PlayerNaviColony" ParentName="Playerbase">
+    <defName>PlayerNaviColony</defName>
+    <label>the Na'vi</label>
+    <description>Your Tribe.</description>
+    <isPlayer>true</isPlayer>
+	<hairTags>
+	<li>Tribal</li>
+	</hairTags>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <basicMemberKind>NaviTribeMember</basicMemberKind>
+    <pawnsPlural>The Navi</pawnsPlural>
+	<factionNameMaker>NamerFactionTribal</factionNameMaker>
+	<techLevel>Neolithic</techLevel>
+	<backstoryCategories>
+		<li>Tribal</li>
+	</backstoryCategories>
+	<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+	<homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
+	<startingResearchTags>
+		<li>TribalStart</li>
+	</startingResearchTags>
+</FactionDef>
+</Defs>

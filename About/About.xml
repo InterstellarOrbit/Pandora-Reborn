@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Pandora: Reborn</name>
+	<author>InterstellarOrbit</author>
+	<url>N/A</url>
+	<supportedVersions>
+    <li>1.0</li>
+	</supportedVersions>
+	<description>
+	Version: 0.3.1
+	Transforms Rimworld into Pandora.
+	
+	Dev Team:
+	Creator; XML Writer: InterstellarOrbit
+	XML Writer: Saebbi (Couldn't have been done without you, thanks!)
+	Gun Artist: ShotgunFrenzy(Contracted)
+	Na'vi Artist: Astra
+	Playtesters: Rolandwow,Grillbye,Nilokka,Troy
+	
+	</description>
+</ModMetaData>

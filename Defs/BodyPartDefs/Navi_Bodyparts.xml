@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  
+	<BodyPartDef>
+   	 <defName>NaviTail</defName>
+   	 <label>navi tail</label>
+   	 <hitPoints>15</hitPoints>
+   	 <frostbiteVulnerability>1</frostbiteVulnerability>
+   	 <spawnThingOnRemoved>NaviTail</spawnThingOnRemoved>
+   	 <skinCovered>true</skinCovered>
+   	 <beautyRelated>true</beautyRelated>
+   	 <tags>
+		<li>MovingLimbSegment</li>
+   	 </tags>
+	</BodyPartDef>
+
+</Defs>

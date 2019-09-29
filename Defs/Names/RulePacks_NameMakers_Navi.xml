@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RulePackDef>
+    <defName>NamerPersonNaviMale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[NaviMaleFirst] [NaviMaleFamily] [NaviMalePaternal]</li>
+      </rulesStrings>
+	  <rulesFiles>
+	  <li>NaviMaleFirst->NaviNames/FirstM</li>
+	  <li>NaviMaleFamily->NaviNames/FamilyM</li>
+	  <li>NaviMalePaternal->NaviNames/PaternalM</li>
+	  </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+ <RulePackDef>
+    <defName>NamerPersonNaviFemale</defName>
+    <rulePack>
+      <rulesStrings>           
+		<li>name->[NaviFemaleFirst] [NaviFemaleFamily] [NaviFemaleMaternal]</li>
+      </rulesStrings>
+	  <rulesFiles>
+      <li>NaviFemaleFirst->NaviNames/FirstF</li>
+	  <li>NaviFemaleFamily->NaviNames/FamilyF</li>
+	  <li>NaviFemaleMaternal->NaviNames/MaternalF</li>
+	  </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>
