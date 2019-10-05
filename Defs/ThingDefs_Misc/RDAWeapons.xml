@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>RDA_Bullet</defName>
+    <label>manufactured shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/RDA_Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1.05</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>RDA_SMGBullet</defName>
+    <label>manufactured smg shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/RDA_Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1.05</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+	  <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+<!-- RDA Handgun -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>RDA_Handgun</defName>
+    <label>rda handgun</label>
+    <description>RDA standard issued handgun. Average against other Humans.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/RDA_Handgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <WorkToMake>38000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RDA_Bullet</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <minRange>1.5</minRange>
+        <range>22.9</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- RDA Wasp -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>RDA_WaspRevolver</defName>
+    <label>rda revolver</label>
+    <description>RDA Revolver. Issued to Officers. Effective against basically anything, it has been known to shoot down Banshees from 3 miles away!</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/RDA_Wasp_Revolver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <WorkToMake>38000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RDA_Bullet</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <minRange>1.5</minRange>
+        <range>40</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- RDA M30 -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>RDA_M30MachineGun</defName>
+    <label>rda m30 machinegun</label>
+    <description>RDA standard issued Machine gun. Average against other Humans.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/RDA_M30_MachineGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <WorkToMake>38000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RDA_SMGBullet</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <minRange>1.5</minRange>
+        <range>40</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- RDA GS-221 Rifle. -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>RDA_GS-221_Rifle</defName>
+    <label>rda GS-221_Rifle</label>
+    <description>GS-221_Rifle. Primarily used by the SecOps.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/GS-221_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <WorkToMake>38000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RDA_SMGBullet</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <minRange>1.5</minRange>
+        <range>40</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -80,7 +80,7 @@
 								</north>
 								<east>
 									<bodyTypes>
-										<Male>(0.1,-0.2)</Male>
+										<Male>(0.1,-0.35)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -100,7 +100,7 @@
             </graphicPaths>
 		
             <hairSettings>
-                <hasHair>false</hasHair>
+                <hasHair>true</hasHair>
             </hairSettings>
             
             <thoughtSettings>
