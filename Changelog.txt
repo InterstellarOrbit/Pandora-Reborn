@@ -1,8 +1,14 @@
 Changelog: 
 
-
 ----------------------REBORN----------------------
-Sept. 29 -0.3.0
+
+Oct. 5th 0.4.0
+
+-Introduction of RDA Weapons
+
+-Fixed Navi Tail Location on Body
+
+Sept. 29th -0.3.0
 
 Rewrite of Mod, playable finally
 
