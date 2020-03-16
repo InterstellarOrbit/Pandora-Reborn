@@ -95,4 +95,33 @@
   </PawnKindDef>
   
   
+  <!--RDA -->
+  
+  <PawnKindDef Name="RDABase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <backstoryCategories>
+      <li>Traveler</li>
+    </backstoryCategories>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance> <!--Change-->
+          <thingDef>Silver</thingDef> <!--Change-->
+          <countRange>
+            <min>30</min> <!--Change-->
+            <max>100</max> <!--Change-->
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
 </Defs>

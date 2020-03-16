@@ -1,6 +1,12 @@
 Changelog: 
 
 ----------------------REBORN----------------------
+Oct xth 0.4.1
+
+-RDA Faction Introduced
+
+-Redrawing of Tail
+
 
 Oct. 5th 0.4.0
 

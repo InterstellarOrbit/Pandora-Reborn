@@ -56,7 +56,7 @@
 					</alienskincolorgen>
                     <bodyAddons>
 						<li>
-							<drawSize>.75</drawSize>
+							<drawSize>.55</drawSize>
 							<path>Things/Pawn/Humanlike/Tails/NaviTail</path>
 							<bodyPart>tail</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
@@ -80,7 +80,7 @@
 								</north>
 								<east>
 									<bodyTypes>
-										<Male>(0.1,-0.35)</Male>
+										<Male>(0.0,0.05)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>

@@ -1,11 +1,15 @@
-Pandora-Reborn 0.4.0
+Pandora-Reborn 0.4.1.1
+
+2020 Reboot
 
 Dev Team:
 Creator/XML: InterstellarOrbit
 XML: Saebbi(Couldn't have done this without him, much thanks :D)
+Senior Artist: Kasmex Forever(Another person who gave this mod hope in the darkest of times; would'nt be possible without them!)
 Na'vi Art: Astra
+VIP: TheSuave(Person who introduced Kasmex into the project)
 Gun Artist: ShotgunFrenzy(Contracted)
-Playtesters: Rolandwow,Grillbye,Nilokka,Troy
+Playtesters: Rolandwow,Grillbye,Nilokka,Troy,DEDOK,JohnnyKrosis,ShaheenXC7
 
 Much thanks to the Rimworld Community for making this Possible.
 

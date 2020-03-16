@@ -33,3 +33,53 @@
 	</startingResearchTags>
 </FactionDef>
 </Defs>
+<!-- RDA -->
+<FactionDef>
+	<defName>RDA</defName>
+	<label>rda faction</label>
+    <description>The Resources Development Administration, or RDA, is the largest single non-governmental organization in human space. The company's early expeditions to Pandora were seen as a colossal risk; the construction of the ISV Venture Star in the late 21st century alone put enormous strain on capital resources. But with exclusive mining rights to Unobtanium (which is valued at 20 million dollars per kilogram raw and 40 million dollars processed), and potential profits from countervirals, biofuels, and cosmetics, the enormous capital investment has paid off. Unfortunately, the RDA's environmentally harmful mining operations on Pandora and the RDA SecOps' destruction of the Trees of Voices and the assault on the Omaticaya Hometree had led into a war between the RDA and the native Na'vi that ended with the RDA being driven off Pandora; whether they will return or not is still to be seen.</description>
+    <pawnsPlural>An RDA Contigent</pawnsPlural> <!--Change-->
+    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Chief of Security</leaderTitle>
+    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture> <!--Change-->
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>10</min>
+      <max>20</max>
+    </startingGoodwill>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker> <!--Change-->
+		<factionBaseNameMaker>NamerFactionBaseOutlander</factionBaseNameMaker> <!--Change-->
+		<techLevel>Industrial</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-40</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <pawnGroupMakers>
+      <li>
+        <kindDef></kindDef>
+        </options>
+      </li>
+     <li>
+        <kindDef></kindDef>
+        </options>
+      </li>
+	  
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath> <!--Change-->
+  </FactionDef>
