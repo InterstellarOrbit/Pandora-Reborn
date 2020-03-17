@@ -1,7 +1,15 @@
 Changelog: 
 
 ----------------------REBORN----------------------
-Oct xth 0.4.1
+March 16th, 2020 -0.5
+
+-Continued work from Hiatus
+
+-Updated to 1.1
+
+-Temporarily removed Surgery for Na'vi; looking to research this a bit more before implementing
+
+Oct 19th 0.4.1
 
 -RDA Faction Introduced
 

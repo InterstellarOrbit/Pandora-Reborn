@@ -7,7 +7,7 @@
       <label>Navi tail</label>
       <description>An Navi tail.</description>
       <graphicData>
-         <texPath>Things/Item/Health/HealthItemNatural</texPath>
+         <texPath>Things/Item/BodyPart/BodyPartNatural</texPath>
          <graphicClass>Graphic_Single</graphicClass>
       </graphicData>
       <statBases>
@@ -16,12 +16,12 @@
       </statBases>
    </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase">
+  <ThingDef ParentName="BodyPartProstheticBase">
     <defName>ClothTail</defName>
     <label>cloth Navi tail</label>
     <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
     <graphicData>
-      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+      <texPath>Things/Item/BodyPart/BodyPartProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -33,12 +33,12 @@
     </techHediffsTags>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>BionicNaviTail</defName>
     <label>bionic Navi tail</label>
     <description>A sophisticated prehensile tail replacement.</description>
     <graphicData>
-      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <texPath>Things/Item/BodyPart/BodyPartBionic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

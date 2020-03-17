@@ -4,18 +4,28 @@
 	<author>InterstellarOrbit</author>
 	<url>N/A</url>
 	<supportedVersions>
-    <li>1.0</li>
+    <li>1.1</li>
 	</supportedVersions>
+	<packageId>interstellarorbit.pandora</packageId>
+	<modDependencies>
+      <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
+      </li>
+    </modDependencies>
 	<description>
-	Version: 0.4.1
+Version: 0.5
 	Transforms Rimworld into Pandora.
 	
-	Dev Team:
-	Creator; XML Writer: InterstellarOrbit
-	XML Writer: Saebbi (Couldn't have been done without you, thanks!)
+Dev Team:
+	Creator/XML: InterstellarOrbit
+	XML: Saebbi(Couldn't have done this without him, much thanks :D)
+	Senior Artist: Kasmex Forever(Another person who gave this mod hope in the darkest of times; would'nt be possible without them!)
+	Na'vi Art: Astra
+	VIP: TheSuave(Person who introduced Kasmex into the project)
 	Gun Artist: ShotgunFrenzy(Contracted)
-	Na'vi Artist: Astra
-	Playtesters: Rolandwow,Grillbye,Nilokka,Troy
+	Playtesters: Rolandwow,Grillbye,Nilokka,Troy,DEDOK,JohnnyKrosis,ShaheenXC7
 	
 	</description>
 </ModMetaData>
