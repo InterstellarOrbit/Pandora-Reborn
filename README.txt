@@ -1,4 +1,4 @@
-Pandora-Reborn 0.4.1.1
+Pandora-Reborn 0.5
 
 2020 Reboot
 
