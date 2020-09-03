@@ -1,6 +1,11 @@
 Changelog: 
 
 ----------------------REBORN----------------------
+
+Sept. 3rd, 2020 -0.6
+
+2020 Royalty Reboot
+
 March 16th, 2020 -0.5
 
 -Continued work from Hiatus

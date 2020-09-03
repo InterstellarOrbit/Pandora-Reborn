@@ -1,6 +1,6 @@
-Pandora-Reborn 0.5
+Pandora-Reborn 0.6.0
 
-2020 Reboot
+2020 Royalty Reboot
 
 Dev Team:
 Creator/XML: InterstellarOrbit
